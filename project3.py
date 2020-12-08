@@ -1,5 +1,4 @@
-"""Yousef Wally ID# 32179033
-    ICS32A
+"""    ICS32A
     Project 3, Try not to breathe"""
 
 from ForwardGeocoder import NominatimGeocoding, FileGeocoding
