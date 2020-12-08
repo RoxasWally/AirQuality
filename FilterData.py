@@ -96,5 +96,6 @@ class FilterData:
                     position = (value[p_index] - p_range[0])/(p_range[1] - p_range[0])
                     converted_value = (conversion[p_range][1] - conversion[p_range][0])*position + conversion[p_range][0]
                     data[index][p_index] = round(converted_value)
+                    break
             if not found_range:
                 data[index][p_index] = 501
